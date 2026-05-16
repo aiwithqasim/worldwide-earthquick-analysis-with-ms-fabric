@@ -6,6 +6,10 @@ End-to-end data engineering pipeline that ingests live earthquake data from the 
 
 ## Architecture
 
+### Sample Pipeline
+
+![Pipeline](docs/screenshots/pipeline.png)
+
 ```
 USGS Earthquake API
         ↓

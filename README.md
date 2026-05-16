@@ -28,7 +28,6 @@ USGS Earthquake API
 
 ![Pipeline](docs/screenshots/pipeline.png)
 
----
 
 ## Tech Stack
 
@@ -37,7 +36,7 @@ USGS Earthquake API
 - **Data Source:** [USGS Earthquake Hazards API](https://earthquake.usgs.gov/fdsnws/event/1/)
 - **Library:** `reverse-geocoder` (Gold layer)
 
----
+
 
 ## Quick Start
 
@@ -72,7 +71,7 @@ end_date   = "2024-01-07"
 
 Connect **Power BI** to the `earthquake_events_gold` semantic model in your workspace.
 
----
+
 
 ## Manual Testing Before Pipeline
 
@@ -115,7 +114,6 @@ display(df)   # shows a paginated table — useful for spot-checking schema and 
 
 > **Note:** When creating the Data Factory pipeline, use a `Set Variable` activity to test that parameter passing works before connecting the notebook activities.
 
----
 
 ## Project Structure
 
@@ -129,7 +127,7 @@ display(df)   # shows a paginated table — useful for spot-checking schema and 
 └── README.md
 ```
 
----
+
 
 ## Prerequisites
 
@@ -137,7 +135,6 @@ display(df)   # shows a paginated table — useful for spot-checking schema and 
 - Basic Python / PySpark familiarity
 - Internet access to the USGS API
 
----
 
 ## License
 

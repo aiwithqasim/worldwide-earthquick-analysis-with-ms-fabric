@@ -6,10 +6,6 @@ End-to-end data engineering pipeline that ingests live earthquake data from the 
 
 ## Architecture
 
-### Sample Pipeline
-
-![Pipeline](docs/screenshots/pipeline.png)
-
 ```
 USGS Earthquake API
         ↓
@@ -27,6 +23,10 @@ USGS Earthquake API
 | Bronze | USGS API     | `{date}_earthquake_data.json`| Data ingestion               |
 | Silver | JSON file    | `earthquake_events_silver`   | Schema flattening & cleaning |
 | Gold   | Silver table | `earthquake_events_gold`     | Reverse geocoding & enrichment |
+
+#### Sample Pipeline
+
+![Pipeline](docs/screenshots/pipeline.png)
 
 ---
 

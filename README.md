@@ -2,7 +2,6 @@
 
 End-to-end data engineering pipeline that ingests live earthquake data from the USGS API and processes it through a **Medallion Architecture** (Bronze → Silver → Gold) on Microsoft Fabric.
 
----
 
 ## Architecture
 
